@@ -12,5 +12,8 @@ jobs:
       - name: Descargar repositorio
         uses: actions/checkout@v4
 
-      - name: Validar HTML
-        run: npx --yes html-validate index.html
+      - name: Validar HTML1
+        run: npx --yes html-validate Tarea6.html
+
+      - name: Validar HTML2
+        run: npx --yes html-validate Tarea7.html
